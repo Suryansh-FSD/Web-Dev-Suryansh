@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Audio Player</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 44px;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        h2 {
+            font-size: 60px;
+            font-style: bold;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        audio {
+            margin: 15px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+    
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            margin: 20px 0;
+        }
+
+        iframe {
+            border-radius: 12px;
+            margin: 20px 0;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+        <b><h2>Full Stack- Source Tagging</h2></b>
+        <h1>Audio Examples</h1>
+        <audio controls>
+            <source src="/Users/suryanshdixit/Downloads/Gabhru (New Version) - Karan Aujla.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <audio controls>
+            <source src="'/Users/suryanshdixit/Downloads/barish master.mp3'" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+
+    <div class="section">
+        <h1>Image Example</h1>
+        <img src="/Users/suryanshdixit/Downloads/wallpaper.jpeg" alt="Wallpaper">
+    </div>
+
+    <div class="section">
+        <h1>Video Example</h1>
+        <iframe 
+            src="https://www.youtube.com/embed/KLuTLF3x9sA" 
+            title="YouTube Video" 
+            width="560" 
+            height="315"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
